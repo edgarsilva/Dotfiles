@@ -1,0 +1,270 @@
+Feb 07 13:31:03 proarch kernel: ACPI: bus type drm_connector registered
+Feb 07 13:31:03 proarch kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+Feb 07 13:31:03 proarch kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+Feb 07 13:31:03 proarch kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+Feb 07 13:31:03 proarch kernel: [drm] amdgpu kernel modesetting enabled.
+Feb 07 13:31:03 proarch kernel: amdgpu: Virtual CRAT table created for CPU
+Feb 07 13:31:03 proarch kernel: amdgpu: Topology: Add CPU node
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: initializing kernel modesetting (IP DISCOVERY 0x1002:0x747E 0x1EAE:0x780A 0xFF).
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: register mmio base: 0xFCA00000
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: register mmio size: 1048576
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 0 <common_v1_0_0> (soc21_common)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 1 <gmc_v11_0_0> (gmc_v11_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 2 <ih_v6_0_0> (ih_v6_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 3 <psp_v13_0_0> (psp)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 4 <smu_v13_0_0> (smu)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 5 <dce_v1_0_0> (dm)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 6 <gfx_v11_0_0> (gfx_v11_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 7 <sdma_v6_0_0> (sdma_v6_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 8 <vcn_v4_0_0> (vcn_v4_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 9 <jpeg_v4_0_0> (jpeg_v4_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: detected ip block number 10 <mes_v11_0_0> (mes_v11_0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: No more image in the PCI ROM
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: Fetched VBIOS from ROM BAR
+Feb 07 13:31:03 proarch kernel: amdgpu: ATOM BIOS: 113-EXT90040-100
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: CP RS64 enable
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: vgaarb: deactivate vga console
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: MEM ECC is not presented.
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: SRAM ECC is not presented.
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: DF poison setting is inconsistent(1:0:0:0)!
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: Poison setting is inconsistent in DF/UMC(0:1)!
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: VRAM: 12272M 0x0000008000000000 - 0x00000082FEFFFFFF (12272M used)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: GART: 512M 0x00007FFF00000000 - 0x00007FFF1FFFFFFF
+Feb 07 13:31:03 proarch kernel: [drm] Detected VRAM RAM=12272M, BAR=256M
+Feb 07 13:31:03 proarch kernel: [drm] RAM width 192bits GDDR6
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: amdgpu: 12272M of VRAM memory ready
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: amdgpu: 32103M of GTT memory ready.
+Feb 07 13:31:03 proarch kernel: [drm] GART: num cpu pages 131072, num gpu pages 131072
+Feb 07 13:31:03 proarch kernel: [drm] PCIE GART of 512M enabled (table at 0x0000008002000000).
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] Loading DMUB firmware via PSP: version=0x07002F00
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [VCN instance 0] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 27
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [VCN instance 1] Found VCN firmware Version ENC: 1.24 DEC: 9 VEP: 0 Revision: 27
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: reserve 0xa700000 from 0x82e0000000 for PSP TMR
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: RAP: optional rap ta ucode is not available
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: SECUREDISPLAY: optional securedisplay ta ucode is not available
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: smu driver if version = 0x0000003d, smu fw if version = 0x00000040, smu fw program = 0, smu fw version = 0x00505600 (80.86.0)
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: SMU driver if version not matched
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: SMU is initialized successfully!
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] Display Core v3.2.351 initialized on DCN 3.2
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] DP-HDMI FRL PCON supported
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] DMUB hardware initialized: version=0x07002F00
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] DP-1: PSR support 0, DC PSR ver -1, sink PSR ver 0 DPCD caps 0x0 su_y_granularity 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] DP-2: PSR support 0, DC PSR ver -1, sink PSR ver 0 DPCD caps 0x0 su_y_granularity 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] DP-3: PSR support 0, DC PSR ver -1, sink PSR ver 0 DPCD caps 0x0 su_y_granularity 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: [drm] HDMI-A-1: PSR support 0, DC PSR ver -1, sink PSR ver 0 DPCD caps 0x0 su_y_granularity 0
+Feb 07 13:31:03 proarch kernel: amdgpu: HMM registered 12272MB device memory
+Feb 07 13:31:03 proarch kernel: kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+Feb 07 13:31:03 proarch kernel: kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+Feb 07 13:31:03 proarch kernel: amdgpu: Virtual CRAT table created for GPU
+Feb 07 13:31:03 proarch kernel: amdgpu: Topology: Add dGPU node [0x747e:0x1002]
+Feb 07 13:31:03 proarch kernel: kfd kfd: amdgpu: added device 1002:747e
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: SE 3, SH per SE 2, CU per SH 10, active_cu_number 54
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring gfx_0.0.0 uses VM inv eng 0 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 6 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 7 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 8 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 9 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 10 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 11 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring sdma0 uses VM inv eng 12 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring sdma1 uses VM inv eng 13 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring vcn_unified_0 uses VM inv eng 0 on hub 8
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring vcn_unified_1 uses VM inv eng 1 on hub 8
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring jpeg_dec uses VM inv eng 4 on hub 8
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: ring mes_kiq_3.1.0 uses VM inv eng 14 on hub 0
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: amdgpu: Using BACO for runtime pm
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: [drm] Registered 4 planes with drm panic
+Feb 07 13:31:03 proarch kernel: [drm] Initialized amdgpu 3.64.0 for 0000:0e:00.0 on minor 1
+Feb 07 13:31:03 proarch kernel: fbcon: amdgpudrmfb (fb0) is primary device
+Feb 07 13:31:03 proarch kernel: amdgpu 0000:0e:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+Feb 07 13:31:03 proarch kernel: [drm] pre_validate_dsc:1667 MST_DSC dsc precompute is not needed
+Feb 07 13:31:03 proarch systemd[1]: Load Kernel Module drm was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!drm).
+Feb 07 13:31:03 proarch kernel: snd_hda_intel 0000:0e:00.1: bound 0000:0e:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+Feb 07 13:31:05 proarch sddm[1445]: Reading from "/usr/local/share/wayland-sessions/hyprland-uwsm.desktop"
+Feb 07 13:31:05 proarch sddm[1445]: Reading from "/usr/share/wayland-sessions/hyprland-uwsm.desktop"
+Feb 07 13:31:05 proarch sddm[1445]: Session "/usr/share/wayland-sessions/hyprland-uwsm.desktop" selected, command: "uwsm start -e -D Hyprland hyprland.desktop" for VT 1
+Feb 07 13:31:05 proarch tailscaled[1283]: envknob: PORT="41641"
+Feb 07 13:31:05 proarch sddm-helper[1660]: Starting Wayland user session: "/usr/share/sddm/scripts/wayland-session" "uwsm start -e -D Hyprland hyprland.desktop"
+Feb 07 13:31:06 proarch uwsm[1795]: Selected compositor ID: hyprland.desktop
+                                              Command Line: /usr/bin/start-hyprland
+                                          Plugin/binary ID: start_hyprland
+                                     Initial Desktop Names: Hyprland
+                                                      Name: Hyprland
+Feb 07 13:31:06 proarch uwsm[1795]: Created unit subdir "wayland-wm-env@hyprland.desktop.service.d/" (run).
+Feb 07 13:31:06 proarch uwsm[1795]: Created "wayland-wm-env@hyprland.desktop.service.d/50_custom.conf" (run).
+Feb 07 13:31:06 proarch uwsm[1795]: Created unit subdir "wayland-wm@hyprland.desktop.service.d/" (run).
+Feb 07 13:31:06 proarch uwsm[1795]: Created "wayland-wm@hyprland.desktop.service.d/50_custom.conf" (run).
+Feb 07 13:31:06 proarch uwsm[1795]: Starting hyprland.desktop and waiting while it is running...
+Feb 07 13:31:06 proarch uwsm[1795]: Starting wayland-session-envelope@hyprland.desktop.target...
+Feb 07 13:31:06 proarch systemd[1665]: Reached target Session envelope of hyprland.desktop Wayland compositor.
+Feb 07 13:31:06 proarch systemd[1665]: Starting Environment preloader for Hyprland, An intelligent dynamic tiling Wayland compositor...
+Feb 07 13:31:06 proarch uwsm_env-preloader[1820]: Preparing environment for start-hyprland...
+Feb 07 13:31:06 proarch uwsm_env-preloader[1820]: Loading plugin "/usr/share/uwsm/plugins/start_hyprland.sh"
+Feb 07 13:31:06 proarch uwsm_env-preloader[1820]: Applying quirks for "start_hyprland".
+Feb 07 13:31:06 proarch systemd[1665]: Finished Environment preloader for Hyprland, An intelligent dynamic tiling Wayland compositor.
+Feb 07 13:31:06 proarch systemd[1665]: Reached target Preparation for session of hyprland.desktop Wayland compositor.
+Feb 07 13:31:06 proarch systemd[1665]: Starting Main service for Hyprland, An intelligent dynamic tiling Wayland compositor...
+Feb 07 13:31:06 proarch uwsm_waitenv[1925]:   HYPRLAND_INSTANCE_SIGNATURE, WAYLAND_DISPLAY
+Feb 07 13:31:06 proarch uwsm_hyprland.desktop[1926]: Starting: /usr/bin/start-hyprland...
+Feb 07 13:31:06 proarch uwsm_hyprland.desktop[1928]: Expecting variables to appear in activation environment:
+Feb 07 13:31:06 proarch uwsm_hyprland.desktop[1928]:   HYPRLAND_INSTANCE_SIGNATURE, WAYLAND_DISPLAY
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]: All expected variables appeared in activation environment.
+Feb 07 13:31:07 proarch systemd[1665]: Started Main service for Hyprland, An intelligent dynamic tiling Wayland compositor.
+Feb 07 13:31:07 proarch systemd[1665]: Reached target Session of hyprland.desktop Wayland compositor.
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]: Exporting variables to systemd user manager:
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   DISPLAY (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   ELECTRON_OZONE_PLATFORM_HINT (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GDK_BACKEND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GDK_SCALE (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_PROMPT_FOREGROUND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_SELECTED_BACKGROUND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_SELECTED_FOREGROUND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_UNSELECTED_BACKGROUND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_UNSELECTED_FOREGROUND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   HYPRCURSOR_SIZE (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   HYPRLAND_CMD (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   HYPRLAND_INSTANCE_SIGNATURE (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   MANAGERPIDFDID (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   MOZ_ENABLE_WAYLAND (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   OZONE_PLATFORM (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   QT_QPA_PLATFORM (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   QT_STYLE_OVERRIDE (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   SDL_VIDEODRIVER (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   SHLVL (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   WAYLAND_DISPLAY (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   WLR_DRM_NO_ATOMIC (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   WLR_DRM_NO_MODIFIERS (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XCOMPOSEFILE (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XCURSOR_SIZE (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XDG_SEAT (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XDG_SEAT_PATH (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XDG_SESSION_ID (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XDG_SESSION_PATH (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   XDG_VTNR (already set)
+Feb 07 13:31:07 proarch uwsm_hyprland.desktop[1928]:   _JAVA_AWT_WM_NONREPARENTING (already set)
+Feb 07 13:31:07 proarch systemd[1665]: Reached target XDG Autostart for session of hyprland.desktop Wayland compositor.
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: > Warning:          Unsupported maximum keycode 708, clipping.
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: >                   X11 cannot support keycodes above 255.
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: > Warning:          Virtual modifier Hyper multiply defined
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: >                   Using 0, ignoring 0
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: > Warning:          Virtual modifier ScrollLock multiply defined
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: >                   Using 0, ignoring 0
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[2084]: Errors from xkbcomp are not fatal to the X server
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]: Marking variables for later cleanup from systemd user manager on stop:
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   ELECTRON_OZONE_PLATFORM_HINT
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GDK_BACKEND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GDK_SCALE
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_PROMPT_FOREGROUND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_SELECTED_BACKGROUND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_SELECTED_FOREGROUND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_UNSELECTED_BACKGROUND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   GUM_CONFIRM_UNSELECTED_FOREGROUND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   HYPRCURSOR_SIZE
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   HYPRLAND_CMD
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   HYPRLAND_INSTANCE_SIGNATURE
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   MANAGERPIDFDID
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   MOZ_ENABLE_WAYLAND
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   OZONE_PLATFORM
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   QT_QPA_PLATFORM
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   QT_STYLE_OVERRIDE
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   SDL_VIDEODRIVER
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   SHLVL
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   WLR_DRM_NO_ATOMIC
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   WLR_DRM_NO_MODIFIERS
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   XCOMPOSEFILE
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]:   _JAVA_AWT_WM_NONREPARENTING
+Feb 07 13:31:08 proarch uwsm_hyprland.desktop[1928]: Autoready failed: org.freedesktop.systemd1.NoSuchUnit: Unit wayland-wm@None.service not loaded.
+Feb 07 13:31:08 proarch systemd[1665]: Starting Portal service (Hyprland implementation)...
+Feb 07 13:31:08 proarch systemd[1665]: Started Portal service (Hyprland implementation).
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] Initializing xdph...
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] XDG_CURRENT_DESKTOP set to Hyprland
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] Gathering exported interfaces
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_seat (ver 9)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_data_device_manager (ver 3)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_compositor (ver 6)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_subcompositor (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_shm (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_viewporter (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_tearing_control_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_fractional_scale_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zxdg_output_manager_v1 (ver 3)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_cursor_shape_manager_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_idle_inhibit_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_relative_pointer_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zxdg_decoration_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_alpha_modifier_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_gamma_control_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: ext_foreign_toplevel_list_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_pointer_gestures_v1 (ver 3)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_foreign_toplevel_manager_v1 (ver 3)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [toplevel] (activate) locks: 1
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_keyboard_shortcuts_inhibit_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_text_input_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_text_input_manager_v3 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_pointer_constraints_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_output_power_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: xdg_activation_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: ext_idle_notifier_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_lock_notifier_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: ext_session_lock_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_input_method_manager_v2 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_virtual_keyboard_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_virtual_pointer_manager_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_output_manager_v1 (ver 4)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: org_kde_kwin_server_decoration_manager (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_focus_grab_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_tablet_manager_v2 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_layer_shell_v1 (ver 5)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_presentation (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: xdg_wm_base (ver 7)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_data_control_manager_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_primary_selection_device_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: xwayland_shell_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwlr_screencopy_manager_v1 (ver 3)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [pipewire] connected
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [screencopy] init successful
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_toplevel_export_manager_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_toplevel_mapping_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [toplevel mapping] registered manager
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_global_shortcuts_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [globalshortcuts] registered
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: xdg_wm_dialog_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_single_pixel_buffer_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_security_context_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_ctm_control_manager_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: hyprland_surface_manager_v1 (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_content_type_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: xdg_toplevel_tag_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: xdg_system_bell_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: ext_workspace_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: ext_data_control_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_pointer_warp_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_fifo_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_commit_timing_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_color_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_drm_lease_device_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wp_linux_drm_syncobj_manager_v1 (ver 1)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_drm (ver 2)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: zwp_linux_dmabuf_v1 (ver 5)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_output (ver 4)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG]  | Got interface: wl_output (ver 4)
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [core] dmabufFeedbackMainDevice
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] Found output name DP-1
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] Found output name DP-3
+Feb 07 13:31:08 proarch xdg-desktop-portal-hyprland[2231]: [LOG] [toplevel] Activated, bound to 1, toplevels: 0
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-swaybg-b30188eb.scope --description=swaybg --quiet --collect --same-dir -- swaybg -i /home/edgar/.config/omarchy/current/background -m fill
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-waybar-d7554970.scope --description=waybar --quiet --collect --same-dir -- waybar
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-swayosd\x2dserver-41a139b4.scope' --description=swayosd-server --quiet --collect --same-dir -- swayosd-server
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-fcitx5-da732d01.scope --description=fcitx5 --quiet --collect --same-dir -- fcitx5
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-hypridle-16b54b16.scope --description=hypridle --quiet --collect --same-dir -- hypridle
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-swaync\x2dstart.sh-57644f23.scope' --description=swaync-start.sh --quiet --collect --same-dir -- /home/edgar/.config/hypr/scripts/swaync-start.sh
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-mako-b58edd18.scope --description=mako --quiet --collect --same-dir -- mako
+Feb 07 13:31:09 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-swaync-32cae107.scope --description=swaync --quiet --collect --same-dir -- swaync
+Feb 07 13:31:13 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-xdg\x2dterminal\x2dexec-65f36202.scope' --description=xdg-terminal-exec --quiet --collect --same-dir -- xdg-terminal-exec --dir=/home/edgar
+Feb 07 13:31:27 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-google\x2dchrome\x2dstable-e7ea718d.scope' --description=google-chrome-stable --quiet --collect --same-dir -- /usr/bin/google-chrome-stable --app=https://chatgpt.com
+Feb 07 13:32:05 proarch uwsm_app-daemon[2082]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-xdg\x2dterminal\x2dexec-e69d75ed.scope' --description=xdg-terminal-exec --quiet --collect --same-dir -- xdg-terminal-exec --dir=/home/edgar/.config/hypr
