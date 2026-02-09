@@ -1,0 +1,244 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  background-color: @background;
+  color: @foreground;
+
+  border: none;
+  min-height: 0;
+  font-family: 'CaskaydiaCove Nerd Font Propo';
+  font-size: 12px;
+}
+
+window#waybar > box {
+  /* border-radius: 14px; */
+  /* background-color: red; */
+}
+
+.modules-left {
+  margin-left: 8px;
+}
+
+.modules-right {
+  margin-right: 8px;
+}
+
+#workspaces button {
+  all: initial;
+  padding: 8px 2px;
+  margin: 0px 1.5px;
+  min-width: 16px;
+}
+
+#workspaces button label {
+  transition: all 0.25s ease-in-out;
+}
+
+#workspaces button.active {
+  /* min-width: 16px; */
+  /* border-radius: 6px; */
+  /* margin: 0px 6px; */
+  /* padding: 0 12px; */
+  /* background-color: @foreground; */
+}
+
+#workspaces button.empty {
+  opacity: 0.25;
+}
+
+#workspaces button.empty.active {
+  opacity: 1;
+  /* min-width: 16px; */
+  /* border: 0px; */
+  /* border-radius: 6px; */
+  /* min-width: 0; */
+  /* margin: 0; */
+  /* background-color: @foreground; */
+  /* padding: 4px 6px; */
+}
+
+#cpu,
+#battery,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#tray {
+  /* background-color: #2980b9; */
+  /* margin: 9px 16px 4px 8px; */
+  padding: 0px 12px;
+  margin: 0 6px;
+}
+/**/
+/* #tray > .passive { */
+/*     -gtk-icon-effect: dim; */
+/* } */
+/**/
+/* #tray > .needs-attention { */
+/*     -gtk-icon-effect: highlight; */
+/*     background-color: #eb4d4b; */
+/* } */
+
+#bluetooth {
+  margin-right: 17px;
+}
+
+#network {
+  margin-right: 13px;
+}
+
+#custom-expand-icon {
+  margin-right: 18px;
+}
+px
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin-left: 5px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 5px;
+  font-size: 10px;
+  padding-bottom: 1px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+#window {
+    padding: 5px 12px;
+    opacity: 0.75;
+}
+
+#window label {
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: @foreground;
+    color: @background;
+}
+
+/* EMPTY STATE — fade out AND remove padding so module collapses */
+.empty #window {
+    opacity: 0;
+}
+
+#custom-power {
+    margin: 4px 0px;
+    padding: 0px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    background: @background-alt;
+    color: @foreground;
+}
+
+#custom-power:hover {
+    background: @foreground;
+    color: @background;
+}
+
+#hardware {
+  border: 1px solid @foreground;
+  border-radius: 6px;
+  margin: 4px 8px;
+  padding: 4px 8px;
+}
+
+#audio {
+  margin: 4px 8px;
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid @foreground;
+  /* background-color: @foreground; */
+  /* color: @background; */
+}
+
+/* Base scratchpad pill (empty state stays collapsed) */
+#custom-scratchpad {
+    margin: 4px 2px 4px 8px;
+    padding: 0px 6px;
+    min-width: 30px;
+    /* transform: translateY(8px); */
+    /* border: 1px dashed transparent; */
+    /* background: transparent; */
+    border-radius: 6px;
+    opacity: 0;
+    /* transition: all 0.25s ease; */
+    transition: all 0.25s ease-in-out;
+}
+
+/* When scratchpad is visible/active */
+#custom-scratchpad.active {
+    opacity: 1;
+    padding: 4px 12px;
+    /* transform: translateY(0); */
+    min-width: 60px;
+    border: 1px dashed #eac46f;
+    color: #fce9a0;
+    background: rgba(255, 220, 140, 0.10);
+    font-weight: 600;
+}
+
+/* Hover effect (optional but nice) */
+#custom-scratchpad:hover {
+    border-color: black;
+    background: rgba(255, 220, 140, 0.40);
+}
+
+#custom-tailscale {
+  margin: 4px 0;
+  padding: 0 4px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: all 0.25s ease-in-out;
+}
+
+#custom-tailscale.online {
+  color: #7aa86f;
+  border: 1px solid #7aa86f;
+  font-weight: bold;
+}
+
+#custom-tailscale.offline {
+  font-size: 10px;
+  color: #cbaa63;
+  border: 1px solid #cbaa63;
+  opacity: 0.4;
+  padding: 0 8px;
+}
+
+#custom-tailscale.stopped {
+  color: #bb5d6d;
+  border: 1px solid #bb5d6d;;
+}
+
+#custom-tailscale.error {
+  color: #9a82d7;
+  border: 1px solid #9a82d7;;
+}
+
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 0 0 7.5px;
+}
+
+#custom-voxtype.recording {
+  color: #a55555;
+}

@@ -1,0 +1,54 @@
+[2025-11-28 21:12:34.120] [info] Using configuration file /home/edgar/.config/waybar/config.jsonc
+[2025-11-28 21:12:34.122] [info] Discovered appearance 'dark'
+[2025-11-28 21:12:34.131] [info] Using CSS file /home/edgar/.config/waybar/style.css
+[2025-11-28 21:12:34.134] [info] Hyprland IPC starting
+[2025-11-28 21:12:34.134] [info] Loading persistent workspaces from Waybar config
+[2025-11-28 21:12:34.135] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-11-28 21:12:34.140] [warning] No batteries.
+[2025-11-28 21:12:34.150] [info] Loading persistent workspaces from Waybar config
+[2025-11-28 21:12:34.150] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-11-28 21:12:34.155] [warning] No batteries.
+
+(waybar:481816): Gtk-CRITICAL **: 21:12:34.370: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:12:34.370: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:12:34.371: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:12:34.371: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2025-11-28 21:12:34.378] [info] Bar configured (width: 2400, height: 26) for output: DP-1
+[2025-11-28 21:12:34.378] [info] Bar configured (width: 1152, height: 26) for output: DP-3
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:06.560: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:06.560: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:06.561: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:06.561: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+** (waybar:481816): WARNING **: 21:15:11.653: Status Notifier Item with bus name ':1.158' and object path '/StatusNotifierItem' is already registered
+
+** (waybar:481816): WARNING **: 21:15:11.654: Status Notifier Host with bus name ':1.583' and object path '/StatusNotifierHost/0' is already registered
+
+** (waybar:481816): WARNING **: 21:15:11.654: Status Notifier Host with bus name ':1.583' and object path '/StatusNotifierHost/1' is already registered
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:11.656: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:11.656: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:11.657: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:481816): Gtk-CRITICAL **: 21:15:11.657: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2025-11-29 13:40:25.921] [info] Using configuration file /home/edgar/.config/waybar/config.jsonc
+[2025-11-29 13:40:25.923] [info] Discovered appearance 'dark'
+[2025-11-29 13:40:25.934] [info] Using CSS file /home/edgar/.config/waybar/style.css
+
+(waybar:102374): Gtk-WARNING **: 13:40:25.935: Theme parsing error: style.css:94:13: Not using units is deprecated. Assuming 'px'.
+[2025-11-29 13:40:25.935] [error] style.css:94:17'px' is not a valid color name
+[2025-11-29 13:40:38.429] [info] Using configuration file /home/edgar/.config/waybar/config.jsonc
+[2025-11-29 13:40:38.431] [info] Discovered appearance 'dark'
+[2025-11-29 13:40:38.441] [info] Using CSS file /home/edgar/.config/waybar/style.css
+
+(waybar:102504): Gtk-WARNING **: 13:40:38.441: Theme parsing error: style.css:94:13: Not using units is deprecated. Assuming 'px'.
+[2025-11-29 13:40:38.442] [error] style.css:94:17'px' is not a valid color name
